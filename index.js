@@ -11,7 +11,7 @@ function johnLennonFacts(facts) {
   var result = []; //create a variabl with an empty array
   var count = 0; //create a counter
   while (count < facts.length) {
-    result.push(facts[count] + '!!!');
+    result.push(facts[count] + '!!!'); //push '!!!' into the end of each value of facts array.
     count++;
   }
   return result;
