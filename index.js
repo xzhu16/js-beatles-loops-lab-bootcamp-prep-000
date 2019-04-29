@@ -18,10 +18,10 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(num) {
-  var arr = []; //
+  var arr = []; //create a variable with an empty array
   do {
-    arr.push("I love the Beatles!")
+    arr.push("I love the Beatles!") 
     num++;
-  } while (num < 15);
+  } while (num < 15); //do push text into arr while num less than 15
   return arr;
 }
