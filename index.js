@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
-  var array= [];
+  var array= []; //create a variable with an empty array
   for (var i = 0; i < musicians.length; i++) {
     array.push(musicians[i] + ' plays ' + instruments[i])
   }
@@ -8,8 +8,8 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  var result = [];
-  var count = 0;
+  var result = []; //create a variabl with an empty array
+  var count = 0; //create a counter
   while (count < facts.length) {
     result.push(facts[count] + '!!!');
     count++;
