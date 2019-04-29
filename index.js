@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  var result = []; //create a variabl with an empty array
+  var result = []; //create a variable with an empty array
   var count = 0; //create a counter
   while (count < facts.length) {
     result.push(facts[count] + '!!!'); //push '!!!' into the end of each value of facts array.
